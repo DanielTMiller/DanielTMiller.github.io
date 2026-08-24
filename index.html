@@ -247,6 +247,23 @@
     border-bottom: 3px solid var(--accent);
     box-shadow: inset 0 1px 0 rgba(255,255,255,0.08);
   }
+  .result .nameplate2 {
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    background: var(--plate);
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    padding: 14px;
+    position: relative;
+    border-bottom: 3px solid var(--accent);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.08);
+  }
+
   .nameplate-name {
     font-family: "Big Shoulders Display", sans-serif;
     font-weight: 700;
@@ -345,15 +362,16 @@
 
     <div class="operator plus" aria-hidden="true">+</div>
 
-    <figure class="part">
-      <div class="photo-frame">
-        <div aria-hidden="true">Some Parts and Modifications</div>
+    <figure class="part result">
+      <div class="nameplate2">
+        <span class="nameplate-name">Some Parts<br>and<br>Modifications</span>
       </div>
       <figcaption>
-        <span class="tag">Component B</span>
-        <span class="part-name">Junior Hack Attack Machine<BR>(<a href="https://sportsattack.com/product/junior-hack-attack-baseball-pitching-machine/">Sports Attack Website</a>)</span>
+        <span class="tag">Component C</span>
+        <span class="part-name">Metal Tubing, Hardware,<BR>Drill and Tap etc.</span>
       </figcaption>
     </figure>
+  </section>
 
     <div class="operator equals" aria-hidden="true">=</div>
 
